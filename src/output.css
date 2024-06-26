@@ -566,39 +566,8 @@ video {
   margin: 1.25rem;
 }
 
-.mx-20 {
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-
-.my-52 {
-  margin-top: 13rem;
-  margin-bottom: 13rem;
-}
-
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.my-60 {
-  margin-top: 15rem;
-  margin-bottom: 15rem;
-}
-
-.my-64 {
-  margin-top: 16rem;
-  margin-bottom: 16rem;
-}
-
-.my-7 {
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
-}
-
-.my-72 {
-  margin-top: 18rem;
-  margin-bottom: 18rem;
+.m-72 {
+  margin: 18rem;
 }
 
 .mx-2 {
@@ -608,6 +577,10 @@ video {
 
 .mb-3 {
   margin-bottom: 0.75rem;
+}
+
+.mt-72 {
+  margin-top: 18rem;
 }
 
 .inline {
@@ -669,12 +642,12 @@ video {
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
 .p-12 {
   padding: 3rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-12 {
@@ -704,14 +677,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pt-12 {
-  padding-top: 3rem;
-}
-
-.align-middle {
-  vertical-align: middle;
 }
 
 .font-serif {
@@ -762,14 +727,14 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:my-52 {
-    margin-top: 13rem;
-    margin-bottom: 13rem;
-  }
-
   .lg\:mx-20 {
     margin-left: 5rem;
     margin-right: 5rem;
+  }
+
+  .lg\:my-52 {
+    margin-top: 13rem;
+    margin-bottom: 13rem;
   }
 
   .lg\:flex {
